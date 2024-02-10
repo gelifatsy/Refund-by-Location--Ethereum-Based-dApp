@@ -39,6 +39,18 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  geolocator: ^10.1.0
+  http: ^0.13.4
+  url_launcher: ^6.0.9
+  location: ^5.0.3
+  web3dart: ^2.3.3 
+  provider: ^6.0.1
+  encrypt: ^5.0.1
+  flutter_native_splash: ^2.0.2+1
+  dropdown_button2: ^1.0.0
+  logging: ^1.0.0
+  flutter_web3: ^2.0.0
+  web_socket_channel: ^2.2.0
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
