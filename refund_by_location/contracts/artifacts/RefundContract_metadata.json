@@ -1,0 +1,222 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "empContractStatus",
+				"outputs": [
+					{
+						"internalType": "int8",
+						"name": "latitude",
+						"type": "int8"
+					},
+					{
+						"internalType": "int8",
+						"name": "longitude",
+						"type": "int8"
+					},
+					{
+						"internalType": "int8",
+						"name": "maxRadius",
+						"type": "int8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "payment",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "compCount",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "reqAmount",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "employeer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "employees",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAdmin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getEmployees",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "payEmployee",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_empAddr",
+						"type": "address"
+					},
+					{
+						"internalType": "int8",
+						"name": "_latitude",
+						"type": "int8"
+					},
+					{
+						"internalType": "int8",
+						"name": "_longitude",
+						"type": "int8"
+					},
+					{
+						"internalType": "int8",
+						"name": "_maxRadius",
+						"type": "int8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_payAmount",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_reqAmount",
+						"type": "uint8"
+					}
+				],
+				"name": "setEmployeeAccount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int8",
+						"name": "_latitude",
+						"type": "int8"
+					},
+					{
+						"internalType": "int8",
+						"name": "_longitude",
+						"type": "int8"
+					}
+				],
+				"name": "updateCompCountStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"refund_by_location/contracts/refundByLocation.sol": "RefundContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"refund_by_location/contracts/refundByLocation.sol": {
+			"keccak256": "0x065aee3c51229b4c0aa947e87dd619b5fc865a15ac31e1ae81b0983e703fcd6f",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://7a189e8b5d731a3f8cb026afdd57ae44c87579426b8e10a56e35cbf899543e1d",
+				"dweb:/ipfs/Qmdz5WeQPPE95CJjuXMqwiRg9ddRz4x4EdYZinezdjafmC"
+			]
+		}
+	},
+	"version": 1
+}
