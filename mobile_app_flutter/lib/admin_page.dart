@@ -102,21 +102,21 @@ class _ParentPageState extends State<ParentPage> {
                           color: Colors.redAccent,
                         ),
                       ),
-                      // IconButton(
-                      //   onPressed: () {},
-                      //   icon: Icon(Icons.edit_sharp),
-                      // )
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.edit_sharp),
+                      )
                     ]),
               ),
             ),
           );
-          // ListTile(
-          //   title: Text(employee),
-          //   subtitle: IconButton(
-          //     icon: Icon(Icons.location_pin),
-          //     onPressed: () async {},
-          //   ),
-          // );
+          ListTile(
+            title: Text(employee),
+            subtitle: IconButton(
+              icon: Icon(Icons.location_pin),
+              onPressed: () async {},
+            ),
+          );
         },
       ),
     );
